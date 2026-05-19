@@ -12,13 +12,13 @@ st.set_page_config(
 
 # LOAD MODELS
 try:
-    model = joblib.load("../models/healthcare_model.pkl")
-    scaler = joblib.load("../models/scaler.pkl")
-    le_sex = joblib.load("../models/le_sex.pkl")
-    le_bp = joblib.load("../models/le_bp.pkl")
-    le_chol = joblib.load("../models/le_chol.pkl")
-    le_sugar = joblib.load("../models/le_sugar.pkl")
-    le_drug = joblib.load("../models/le_drug.pkl")
+    model = joblib.load("models/healthcare_model.pkl")
+    scaler = joblib.load("models/scaler.pkl")
+    le_sex = joblib.load("models/le_sex.pkl")
+    le_bp = joblib.load("models/le_bp.pkl")
+    le_chol = joblib.load("models/le_chol.pkl")
+    le_sugar = joblib.load("models/le_sugar.pkl")
+    le_drug = joblib.load("models/le_drug.pkl")
 except Exception as e:
     st.error(f"Model Loading Error: {e}")
 

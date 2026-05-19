@@ -1,6 +1,9 @@
 # MediAI Clinical Assistant
 
-MediAI Clinical Assistant is an AI-powered diagnostic support tool designed to assist healthcare professionals in analyzing patient clinical data and recommending appropriate treatment plans.
+MediAI Clinical Assistant is an intelligent healthcare decision-support system designed to streamline patient treatment recommendations. By leveraging advanced machine learning models, the application analyzes critical patient metrics—including BMI, Blood Pressure, Cholesterol, Sugar Levels, and Sodium-Potassium ratios—to provide data-driven insights and suggest appropriate pharmaceutical treatments.
+
+Built with a modern, dark-themed UI using Streamlit, this tool aims to assist healthcare professionals in making rapid, informed clinical decisions while ensuring detailed documentation through automated report generation.
+
 
 ## Features
 * **AI-Driven Diagnostics:** Processes patient vitals and clinical metrics to predict suitable medication.
